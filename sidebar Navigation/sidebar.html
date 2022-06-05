@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audiomack</title>
+    <!--Fontawesome CDN Link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--link css-->
+    <link href="sidebar.css" type="text/css" rel="stylesheet">
+    <!--link icon-->
+    <link href="../img/audiomack icon 2.jpg" type="icon/img/jpg" rel="icon">
+</head>
+    <!--header bar-->
+<body>
+    <!-- <div class="header">
+         <div class="inner_header">
+        <div class="logo_container">
+        <div class="logo_image">
+            <img src="../img/audiomack icon.png">
+        </div>
+        </div>
+        <ul class="navigation">
+            <li><a href="#">Sign in<span class="crossbar">/</span>Sign up</a></li>
+            <li><a href="#"><i class="fa fa-user-circle"></i></a></li>
+            <li>
+             <span class="upload">
+                <i class="fa fa-file-upload"></i>
+                <button type="submit">upload</button>
+             </span>
+                </li>
+        </ul>
+        searchbar
+        <div class="container">
+      <div class="search_wrap search_wrap_1">
+          <div class="search_box">
+              <input type="text" class="input"
+              placeholder="Search for Artists, Songs, Albums!">
+              <div class="btn btn_common">
+                  <i class="fa fa-search"></i>
+              </div>
+          </div>
+      </div>
+       </div>
+         </div>  
+        </div>-->
+     
+<!--sidebar_contents-->
+   <div id="sidebar" class="sidebar">
+        <div id="logo" class="logo_content" onclick="toggleNav()">
+            <div class="logo">
+                <div class="logo_name">BROWSE</div>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" id="btn"></i>
+        </div>
+        <ul id="nav-list" class="nav_list">
+            <li>
+                <a href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Home</span>
+                <sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Trending</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-fire" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Top Songs</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-music" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Top Albums</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-podcast" aria-hidden="true"></i>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user-circle"></i>
+                </a>
+                <span class="tooltip">Accounts to Follow</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Recently Added</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Audiomack World</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                </a>
+                <span class="tooltip">Artist Guide</span>
+                <!--sidebar_lists-->
+            </li>
+            
+            <li>
+            <a href="#"> 
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+            </a>
+            <span class="tooltip">Audiomack Studios</span>
+            </li>
+            <!--sidebar_lists ends here-->
+        </ul>
+        <ul id="nav-list2" class="nav_list2" style="display: none;">
+            <li>
+                <a href="#">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span class="links_name">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    <span class="links_name">Trending</span>
+                </a>
+                <span class="tooltip">Trending</span>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-fire" aria-hidden="true"></i>
+                    <span class="links_name">Top Songs</span>
+                    <span class="tooltip">Top Songs</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-music" aria-hidden="true"></i>
+                    <span class="links_name">Top Albums</span>
+                    <span class="tooltip">Top Albums</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-podcast" aria-hidden="true"></i>
+                    <span class="links_name">Playlist</span> 
+                    <span class="tooltip">Playlist</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-user-circle"></i>
+                    <span class="links_name">Accounts to Follow</span>
+                    <span class="tooltip">Accounts to Follow</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-plus-square" aria-hidden="true"></i>
+                    <span class="links_name">Recently Added</span>
+                    <span class="tooltip">Recently Added</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <span class="links_name">Audiomack World</span>
+                    <span class="tooltip">Audiomack World</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <span class="links_name">Artist Guide</span>
+                    <span class="tooltip">Artist Guide</span>
+                </a>
+                <!--sidebar_lists-->
+            </li>
+            
+            <li>
+            <a href="#"> 
+            <i class="fa fa-microphone" aria-hidden="true"></i>
+            <span class="links_name">Audiomack Studios</span>
+            </a>
+            <span class="tooltip">Audiomack Studios</span>
+            </li>
+            <!--sidebar_lists ends here-->
+        </ul>
+   
+     <!--javascript for sidebar-->
+  <script>
+    var navList = document.getElementById('nav-list');
+    var navList2 = document.getElementById('nav-list2');
+    var sidebar = document.getElementById('sidebar');
+    var short = true;
+    function toggleNav() {
+        if(short) {
+            navList.style.display = 'none';
+            navList2.style.display = 'inline-block';
+            sidebar.style.width = '240px';
+     short = false;
+        } else {
+            navList.style.display = 'inline-block';
+            navList2.style.display = 'none';
+            sidebar.style.width = '78px';
+            short = true;
+        }
+    }
+</script>
